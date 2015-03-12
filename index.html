@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>YYCjs Slides</title>
+  <title>The (perfect) JavaScript project</title>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,900,700,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="theme/font-awesome.css">
   <style type="text/css">
@@ -560,12 +560,7 @@ ul {
   </div>
 
   <div class="slide" id="slide-1">
-    <section class="slide-content"><h1 id="yyc-js-presents">YYC.js Presents</h1>
-<h2 id="an-epic-slide-template">An Epic Slide Template</h2>
-<h3 id="that-totally-kicks-some-ass">That totally kicks some ass</h3>
-<h4 id="kind-of-like-chuck-norris">Kind of like Chuck Norris</h4>
-<h5 id="and-jackie-chan">And Jackie Chan</h5>
-<p>Maybe even Chris Rock</p>
+    <section class="slide-content"><h1 id="-the-perfect-javascript-project-"><code>The ${perfect} JavaScript project</code></h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
@@ -608,6 +603,92 @@ ul {
 </section>
   </div>
   <div class="slide hidden" id="slide-7">
+    <section class="slide-content"><h2 id="what-we-won-t-talk-about">What we won&#39;t talk about</h2>
+<ul>
+<li>Frameworks</li>
+<li>Grunt vs. Gulp vs. Tomato vs. Potato vs. Brocolli</li>
+<li>CommonJS vs. AMD</li>
+<li>RequireJS vs. Browserify</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><p><img src="img/es6_all_the_things.jpg" alt="ES6 all the things!"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-9">
+    <section class="slide-content"><h2 id="what-we-will-also-talk-about">What we will also talk about</h2>
+<ul>
+<li>Git and GitHub</li>
+<li>Feature branches, versioning and milestones</li>
+<li>Pull requests and code review</li>
+<li>Code quality checking</li>
+<li>Build steps</li>
+<li>Folder layout</li>
+<li>Continuous integration</li>
+<li>Deployment</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-10">
+    <section class="slide-content"><h2 id="git">Git</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-11">
+    <section class="slide-content"><h2 id="github">GitHub</h2>
+<h3 id="use-it">Use it</h3>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-12">
+    <section class="slide-content"><h2 id="modules">Modules</h2>
+<h4 id="the-__n__ode-__p__ackage-__m__anager-https-npmjs-org-">The <a href="https://npmjs.org"><strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager</a></h4>
+<ul>
+<li>currently hosts ~63,000 modules</li>
+<li>easy to use (<code>npm install &lt;package&gt;</code>)</li>
+<li>easy to publish (<code>npm publish</code>)</li>
+<li>use it with anything (folders, tarballs, git repositories)</li>
+</ul>
+<h4 id="-es6-modules-http-www-2ality-com-2014-09-es6-modules-final-html-"><a href="http://www.2ality.com/2014/09/es6-modules-final.html">ES6 modules</a></h4>
+<ul>
+<li>Finalized module syntax of the next version of JavaScript</li>
+</ul>
+<pre><code class="lang-javascript">import $ from <span class="string">'jQuery'</span>;
+
+export <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">myPlugin</span><span class="params">()</span> {</span>
+  <span class="keyword">this</span>.html(<span class="string">'Hello world'</span>);
+}
+
+$.fn.myPlugin = myPlugin;</code></pre>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-13">
+    <section class="slide-content"><h2 id="package-json">package.json</h2>
+<p>CommonJS specification for describing JavaScript packages can be scaffolded running <code>npm init</code></p>
+<pre><code class="lang-json">{
+    "<span class="attribute">name</span>": <span class="value"><span class="string">"perfect-instaface"</span></span>,
+    "<span class="attribute">version</span>": <span class="value"><span class="string">"0.1.0"</span></span>,
+    "<span class="attribute">author</span>": <span class="value"><span class="string">"YYCJS &lt;people@yycjs.com&gt;"</span></span>,
+    "<span class="attribute">description</span>": <span class="value"><span class="string">"The perfect package.json"</span></span>,
+    "<span class="attribute">scripts</span>": <span class="value">{
+        "<span class="attribute">test</span>": <span class="value"><span class="string">"mocha test"</span></span>,
+        "<span class="attribute">start</span>": <span class="value"><span class="string">"node lib/main.js"</span>
+    }</span></span>,
+    "<span class="attribute">main</span>": <span class="value"><span class="string">"./lib/main.js"</span></span>,
+    "<span class="attribute">repository</span>": <span class="value">{
+        "<span class="attribute">type</span>": <span class="value"><span class="string">"git"</span></span>,
+        "<span class="attribute">url</span>": <span class="value"><span class="string">"https://github.com/yycjs/perfect-javascript"</span>
+    }</span></span>,
+    "<span class="attribute">dependencies</span>": <span class="value">{
+        "<span class="attribute">somePackage</span>": <span class="value"><span class="string">"&gt; 1.0.0"</span>
+    }</span></span>,
+    "<span class="attribute">devDependencies</span>": <span class="value">{
+        "<span class="attribute">some-dev-only-package</span>":  <span class="value"><span class="string">"*"</span>
+    }</span></span>,
+    "<span class="attribute">license</span>": <span class="value"><span class="string">"MIT"</span>
+}</span></code></pre>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-14">
     <section class="slide-content"><h1 id="next-month">Next Month</h1>
 <ul>
 <li>Something awesome</li>
