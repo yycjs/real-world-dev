@@ -622,20 +622,13 @@ ul {
     <section class="slide-content"><h1 id="what-we-won-t-talk-about">What we won&#39;t talk about</h1>
 <ul>
 <li>Frameworks</li>
-<li>Grunt vs. Gulp</li>
-<li>Brocolli vs. Tomato vs. Potato</li>
+<li>Grunt vs. Gulp vs. Tomato vs. Potato vs. Brocolli</li>
 <li>CommonJS vs. AMD</li>
 <li>RequireJS vs. Browserify vs. Webpack vs. Dumpster</li>
 <li>MVC, MVVM, MV*</li>
 </ul>
 </section>
   </div>
-<<<<<<< HEAD
-  <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><div style="width: 100%; height: 100%; background: url('img/es6_all_the_things.jpg') center center no-repeat; background-size: contain;"></div></section>
-  </div>
-=======
->>>>>>> adding a bunch of slides
   <div class="slide hidden" id="slide-9">
     <section class="slide-content"><h1 id="what-we-will-talk-about">What we will talk about</h1>
 <ul>
@@ -662,28 +655,6 @@ ul {
 <p><img src="img/git.png" alt="git"></p>
 </section>
   </div>
-<<<<<<< HEAD
-  <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><h2 id="modules">Modules</h2>
-<h4 id="the-__n__ode-__p__ackage-__m__anager-https-npmjs-org-">The <a href="https://npmjs.org"><strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager</a></h4>
-<ul>
-<li>currently hosts ~130,000 modules</li>
-<li>easy to use (<code>npm install &lt;package&gt;</code>)</li>
-<li>easy to publish (<code>npm publish</code>)</li>
-<li>use it with anything (folders, tarballs, git repositories)</li>
-</ul>
-<h4 id="-es6-modules-http-www-2ality-com-2014-09-es6-modules-final-html-"><a href="http://www.2ality.com/2014/09/es6-modules-final.html">ES6 modules</a></h4>
-<ul>
-<li>Finalized module syntax of the next version of JavaScript</li>
-</ul>
-<pre><code class="lang-javascript">import $ from <span class="string">'jQuery'</span>;
-
-export <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">myPlugin</span><span class="params">()</span> {</span>
-  <span class="keyword">this</span>.html(<span class="string">'Hello world'</span>);
-}
-
-$.fn.myPlugin = myPlugin;</code></pre>
-=======
   <div class="slide hidden  image" id="slide-12">
     <section class="slide-content"><h1 id="github">github</h1>
 <h2 id="just-f-cking-use-it-">Just F*cking Use It.</h2>
@@ -701,11 +672,18 @@ $.fn.myPlugin = myPlugin;</code></pre>
 <p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
 </section>
   </div>
-  <div class="slide hidden  image" id="slide-15">
+  <div class="slide hidden" id="slide-15">
     <section class="slide-content"><h1 id="code-quality">Code Quality</h1>
-<h2 id="aka-teamwork">aka. Teamwork</h2>
-<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
->>>>>>> adding a bunch of slides
+<p><a href="http://jshint.com/">JSHint</a> is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team&#39;s coding conventions. Can help avoid common pitfalls like</p>
+<ul>
+<li><a href="https://github.com/DmitryBaranovskiy/raphael/issues/934">Global variable leaks</a></li>
+<li>Double equals</li>
+<li>Unused and redeclared variables</li>
+<li>Deprecated syntax (e.g. <code>with</code>)</li>
+<li>Maximum allowed complexity</li>
+<li>Expected indentation</li>
+<li>Missing semicolons</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden  image" id="slide-16">
@@ -747,37 +725,6 @@ $.fn.myPlugin = myPlugin;</code></pre>
 }</span></code></pre>
 </section>
   </div>
-<<<<<<< HEAD
-  <div class="slide hidden" id="slide-14">
-    <section class="slide-content"><h2 id="-jshint-http-jshint-com-"><a href="http://jshint.com/">JSHint</a></h2>
-<p>JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team&#39;s coding conventions. Can help avoid common pitfalls like</p>
-<ul>
-<li><a href="https://github.com/DmitryBaranovskiy/raphael/issues/934">Global variable leaks</a></li>
-<li>Double equals</li>
-<li>Unused and redeclared variables</li>
-<li>Deprecated syntax (e.g. <code>with</code>)</li>
-<li>Maximum allowed complexity</li>
-<li>Expected indentation</li>
-<li>Missing semicolons</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden -" id="slide-15">
-    <section class="slide-content"><h2 id="continuous-integration">Continuous Integration</h2>
-<ul>
-<li>Use source control management system (SCM) - e.g. Git - to trigger builds</li>
-<li>Run JSHint, reports, tests, build, deploy or other tools on each SCM change</li>
-<li>Popular open source CI servers:<ul>
-<li><a href="http://jenkins-ci.org/">Jenkins</a>: Probably most popular CI server, formerly Hudson</li>
-<li><a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>: CI framework initially by Thoughtworks</li>
-</ul>
-</li>
-<li>Proprietary: <a href="http://travis-ci.org">TravisCI</a> (free for open source), <a href="https://codeship.com/">Codeship</a>, <a href="https://circleci.com/">CircleCI</a>, <a href="https://phantomci.com/">PhantomCI</a> (Docker), <a href="http://appveyor.com">AppVeyor</a> (Windows)</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-16">
-=======
   <div class="slide hidden" id="slide-19">
     <section class="slide-content"><h1 id="modules">Modules</h1>
 <h4 id="the-__n__ode-__p__ackage-__m__anager-https-npmjs-org-">The <a href="https://npmjs.org"><strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager</a></h4>
@@ -808,24 +755,52 @@ $.fn.myPlugin = myPlugin;</code></pre>
 </blockquote>
 </section>
   </div>
-  <div class="slide hidden  image" id="slide-21">
+  <div class="slide hidden" id="slide-21">
+    <section class="slide-content"><h2 id="continuous-deployment-continued-">Continuous Deployment Continued...</h2>
+<ul>
+<li>Use source control management system (SCM) - e.g. Git - to trigger builds</li>
+<li>Run JSHint, reports, tests, build, deploy or other tools on each SCM change</li>
+<li>Popular open source CI servers:<ul>
+<li><a href="http://jenkins-ci.org/">Jenkins</a>: Probably most popular CI server, formerly Hudson</li>
+<li><a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>: CI framework initially by Thoughtworks</li>
+</ul>
+</li>
+<li>Proprietary: <a href="http://travis-ci.org">TravisCI</a> (free for open source), <a href="https://codeship.com/">Codeship</a>, <a href="https://circleci.com/">CircleCI</a>, <a href="https://phantomci.com/">PhantomCI</a> (Docker), <a href="http://appveyor.com">AppVeyor</a> (Windows)</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden  image" id="slide-22">
     <section class="slide-content"><h1 id="codeship">Codeship</h1>
 <h2 id="also-just-use-it-">Also, Just Use It.</h2>
 <p><img src="img/codeship.png" alt="Codeship"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-22">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><h1 id="automated-testing">Automated Testing</h1>
 <p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
 </section>
   </div>
-  <div class="slide hidden  image" id="slide-23">
+  <div class="slide hidden  image" id="slide-24">
     <section class="slide-content"><h1 id="ship-early-ship-often">Ship Early, Ship Often</h1>
 <p><img src="img/shipit.jpg" alt="U Shipit Now" style="height: 400px;"></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>adding a bunch of slides</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 </section>
   </div>
-  <div class="slide hidden" id="slide-24">
->>>>>>> adding a bunch of slides
+  <div class="slide hidden" id="slide-25">
     <section class="slide-content"><h1 id="next-month">Next Month</h1>
 <ul>
 <li>Wrangling ArrangoDB by Christian Pekeler</li>
