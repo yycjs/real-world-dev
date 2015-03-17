@@ -606,15 +606,15 @@ ul {
     <section class="slide-content"><h2 id="what-we-won-t-talk-about">What we won&#39;t talk about</h2>
 <ul>
 <li>Frameworks</li>
-<li>Grunt vs. Gulp vs. Tomato vs. Potato vs. Brocolli</li>
+<li>Grunt vs. Gulp</li>
+<li>Brocolli vs. Tomato vs. Potato</li>
 <li>CommonJS vs. AMD</li>
 <li>RequireJS vs. Browserify</li>
 </ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><p><img src="img/es6_all_the_things.jpg" alt="ES6 all the things!"></p>
-</section>
+    <section class="slide-content"><div style="width: 100%; height: 100%; background: url('img/es6_all_the_things.jpg') center center no-repeat; background-size: contain;"></div></section>
   </div>
   <div class="slide hidden" id="slide-9">
     <section class="slide-content"><h2 id="what-we-will-also-talk-about">What we will also talk about</h2>
@@ -643,7 +643,7 @@ ul {
     <section class="slide-content"><h2 id="modules">Modules</h2>
 <h4 id="the-__n__ode-__p__ackage-__m__anager-https-npmjs-org-">The <a href="https://npmjs.org"><strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager</a></h4>
 <ul>
-<li>currently hosts ~63,000 modules</li>
+<li>currently hosts ~130,000 modules</li>
 <li>easy to use (<code>npm install &lt;package&gt;</code>)</li>
 <li>easy to publish (<code>npm publish</code>)</li>
 <li>use it with anything (folders, tarballs, git repositories)</li>
@@ -689,6 +689,34 @@ $.fn.myPlugin = myPlugin;</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-14">
+    <section class="slide-content"><h2 id="-jshint-http-jshint-com-"><a href="http://jshint.com/">JSHint</a></h2>
+<p>JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team&#39;s coding conventions. Can help avoid common pitfalls like</p>
+<ul>
+<li><a href="https://github.com/DmitryBaranovskiy/raphael/issues/934">Global variable leaks</a></li>
+<li>Double equals</li>
+<li>Unused and redeclared variables</li>
+<li>Deprecated syntax (e.g. <code>with</code>)</li>
+<li>Maximum allowed complexity</li>
+<li>Expected indentation</li>
+<li>Missing semicolons</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden -" id="slide-15">
+    <section class="slide-content"><h2 id="continuous-integration">Continuous Integration</h2>
+<ul>
+<li>Use source control management system (SCM) - e.g. Git - to trigger builds</li>
+<li>Run JSHint, reports, tests, build, deploy or other tools on each SCM change</li>
+<li>Popular open source CI servers:<ul>
+<li><a href="http://jenkins-ci.org/">Jenkins</a>: Probably most popular CI server, formerly Hudson</li>
+<li><a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>: CI framework initially by Thoughtworks</li>
+</ul>
+</li>
+<li>Proprietary: <a href="http://travis-ci.org">TravisCI</a> (free for open source), <a href="https://codeship.com/">Codeship</a>, <a href="https://circleci.com/">CircleCI</a>, <a href="https://phantomci.com/">PhantomCI</a> (Docker), <a href="http://appveyor.com">AppVeyor</a> (Windows)</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-16">
     <section class="slide-content"><h1 id="next-month">Next Month</h1>
 <ul>
 <li>Something awesome</li>
