@@ -46,74 +46,114 @@ controls: false
 
 # Last Month
 
-* Something awesome
-* More awesomeness
+* Learning JavaScript
+* Laurie Gloge gave talked about
+	* Her take on a n00b's guide to JS and development in general
+	* Going from nothing to building her first app using the MEAN stack.
+* Kevin Barabash talked about
+	* ProTips™ we wish we knew starting out
+	* How to embrace what's between the `{}`
 
 --
 
-## What we won't talk about
+# Disclaimer
+> ## Some parts of this talk are very opinionated and may be offensive to some viewers.
+
+<p style="text-align: center;">(Especially those of you who love to do things the hard way.)</p>
+
+--
+
+# What we won't talk about
 
 - Frameworks
-- Grunt vs. Gulp
-- Brocolli vs. Tomato vs. Potato
+- Grunt vs. Gulp vs. Tomato vs. Potato vs. Brocolli
 - CommonJS vs. AMD
-- RequireJS vs. Browserify
+- RequireJS vs. Browserify vs. Webpack vs. Dumpster
+- MVC, MVVM, MV*
 
 --
 
-<div style="width: 100%; height: 100%; background: url('img/es6_all_the_things.jpg') center center no-repeat; background-size: contain;"></div>
-
---
-
-## What we will also talk about
+# What we will talk about
 
 - Git and GitHub
 - Feature branches, versioning and milestones
 - Pull requests and code review
 - Code quality checking
 - Build steps
-- Folder layout
-- Continuous integration
-- Deployment
+- Folder structure
+- Continuous Deployment
+- `assert('testing' !== false);`
+- Shipping early & shipping often
+
+-- image
+
+# And also...
+
+<img src="img/es6_all_the_things.jpg" alt="ES6 All the things!">
+
+-- image
+
+# git
+
+## Just Use It.
+
+<img src="img/git.png" alt="git">
+
+-- image
+
+# github
+
+## Just F*cking Use It.
+
+<img src="img/github.png" alt="github">
+
+-- image
+
+# Branches, versions & milestones... Oh My
+
+<img src="img/branches.jpg" alt="branches" style="height: 400px;">
+
+-- image
+
+# PR's & Code Review
+
+## aka. Teamwork
+
+<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
 
 --
 
-## Git
+# Code Quality
+
+[JSHint](http://jshint.com/) is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team's coding conventions. Can help avoid common pitfalls like
+
+- [Global variable leaks](https://github.com/DmitryBaranovskiy/raphael/issues/934)
+- Double equals
+- Unused and redeclared variables
+- Deprecated syntax (e.g. `with`)
+- Maximum allowed complexity
+- Expected indentation
+- Missing semicolons
+
+-- image
+
+# Build Steps
+
+## aka. Teamwork
+
+<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+
+-- image
+
+# App Structure
+
+## aka. Teamwork
+
+<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
 
 --
 
-## GitHub
-
-### Use it
-
---
-
-## Modules
-
-#### The [__N__ode __P__ackage __M__anager](https://npmjs.org)
-
-- currently hosts ~130,000 modules
-- easy to use (`npm install <package>`)
-- easy to publish (`npm publish`)
-- use it with anything (folders, tarballs, git repositories)
-
-#### [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html)
-
-- Finalized module syntax of the next version of JavaScript
-
-```javascript
-import $ from 'jQuery';
-
-export default function myPlugin() {
-  this.html('Hello world');
-}
-
-$.fn.myPlugin = myPlugin;
-```
-
---
-
-## package.json
+# package.json
 
 CommonJS specification for describing JavaScript packages can be scaffolded running `npm init`
 
@@ -144,21 +184,40 @@ CommonJS specification for describing JavaScript packages can be scaffolded runn
 
 --
 
-## [JSHint](http://jshint.com/)
+# Modules
 
-JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team's coding conventions. Can help avoid common pitfalls like
+#### The [__N__ode __P__ackage __M__anager](https://npmjs.org)
 
-- [Global variable leaks](https://github.com/DmitryBaranovskiy/raphael/issues/934)
-- Double equals
-- Unused and redeclared variables
-- Deprecated syntax (e.g. `with`)
-- Maximum allowed complexity
-- Expected indentation
-- Missing semicolons
+- currently hosts ~63,000 modules
+- easy to use (`npm install <package>`)
+- easy to publish (`npm publish`)
+- use it with anything (folders, tarballs, git repositories)
 
----
+#### [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html)
 
-## Continuous Integration
+- Finalized module syntax of the next version of JavaScript
+
+```javascript
+import $ from 'jQuery';
+
+export default function myPlugin() {
+  this.html('Hello world');
+}
+
+$.fn.myPlugin = myPlugin;
+```
+
+--
+
+# Continuous Deployment
+
+## Basically, being able to ship stuff on demand.
+
+> Blah blah blah **continuous integration**, wizard wave **pipelines**, monkey joshua tree **deployment lifecycle**; beer, bears, bees **isolation**.
+
+--
+
+## Continuous Deployment Continued...
 
 - Use source control management system (SCM) - e.g. Git - to trigger builds
 - Run JSHint, reports, tests, build, deploy or other tools on each SCM change
@@ -167,9 +226,30 @@ JSHint is a community-driven tool to detect errors and potential problems in Jav
 	- [CruiseControl](http://cruisecontrol.sourceforge.net/): CI framework initially by Thoughtworks
 - Proprietary: [TravisCI](http://travis-ci.org) (free for open source), [Codeship](https://codeship.com/), [CircleCI](https://circleci.com/), [PhantomCI](https://phantomci.com/) (Docker), [AppVeyor](http://appveyor.com) (Windows)
 
+-- image
+
+# Codeship
+
+## Also, Just Use It.
+
+<img src="img/codeship.png" alt="Codeship">
+
+--
+
+# Automated Testing
+
+<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+
+-- image
+
+# Ship Early, Ship Often
+
+<img src="img/shipit.jpg" alt="U Shipit Now" style="height: 400px;">
+>>>>>>> adding a bunch of slides
+
 --
 
 # Next Month
 
-* Something awesome
-* More awesomeness
+* Wrangling ArrangoDB by Christian Pekeler
+* Writing Modular JavaScript by Olivier Weitrich
