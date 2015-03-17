@@ -663,13 +663,13 @@ ul {
   </div>
   <div class="slide hidden  image" id="slide-13">
     <section class="slide-content"><h1 id="branches-versions-milestones-oh-my">Branches, versions &amp; milestones... Oh My</h1>
-<p><img src="img/branches.jpg" alt="branches" style="height: 400px;"></p>
+<p><img src="img/branches.jpg" alt="branches" style="height: 300px;"></p>
 </section>
   </div>
   <div class="slide hidden  image" id="slide-14">
     <section class="slide-content"><h1 id="pr-s-code-review">PR&#39;s &amp; Code Review</h1>
 <h2 id="aka-teamwork">aka. Teamwork</h2>
-<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
+<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 300px;"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-15">
@@ -688,19 +688,17 @@ ul {
   </div>
   <div class="slide hidden  image" id="slide-16">
     <section class="slide-content"><h1 id="build-steps">Build Steps</h1>
-<h2 id="aka-teamwork">aka. Teamwork</h2>
-<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
+<p><img src="img/build-steps.jpg" alt="Build Steps" style="height: 400px;"></p>
 </section>
   </div>
   <div class="slide hidden  image" id="slide-17">
     <section class="slide-content"><h1 id="app-structure">App Structure</h1>
-<h2 id="aka-teamwork">aka. Teamwork</h2>
-<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
+<p><img src="img/structure.png" alt="App Structure" style="height: 400px;"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><h1 id="package-json">package.json</h1>
-<p>CommonJS specification for describing JavaScript packages can be scaffolded running <code>npm init</code></p>
+    <section class="slide-content"><h2 id="package-json">package.json</h2>
+<p>JS module description. Scaffolded using <code>npm init</code>. Run scripts by <code>npm run build</code>.</p>
 <pre><code class="lang-json">{
     "<span class="attribute">name</span>": <span class="value"><span class="string">"perfect-instaface"</span></span>,
     "<span class="attribute">version</span>": <span class="value"><span class="string">"0.1.0"</span></span>,
@@ -726,14 +724,19 @@ ul {
 </section>
   </div>
   <div class="slide hidden" id="slide-19">
-    <section class="slide-content"><h1 id="modules">Modules</h1>
+    <section class="slide-content"><h2 id="modules">Modules</h2>
 <h4 id="the-__n__ode-__p__ackage-__m__anager-https-npmjs-org-">The <a href="https://npmjs.org"><strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager</a></h4>
 <ul>
 <li>currently hosts ~63,000 modules</li>
 <li>easy to use (<code>npm install &lt;package&gt;</code>)</li>
 <li>easy to publish (<code>npm publish</code>)</li>
 <li>use it with anything (folders, tarballs, git repositories)</li>
+<li>installed modules live in <code>node_modules</code></li>
 </ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-20">
+    <section class="slide-content"><h2 id="modules-continued-">Modules continued...</h2>
 <h4 id="-es6-modules-http-www-2ality-com-2014-09-es6-modules-final-html-"><a href="http://www.2ality.com/2014/09/es6-modules-final.html">ES6 modules</a></h4>
 <ul>
 <li>Finalized module syntax of the next version of JavaScript</li>
@@ -747,7 +750,7 @@ export <span class="keyword">default</span> <span class="function"><span class="
 $.fn.myPlugin = myPlugin;</code></pre>
 </section>
   </div>
-  <div class="slide hidden" id="slide-20">
+  <div class="slide hidden" id="slide-21">
     <section class="slide-content"><h1 id="continuous-deployment">Continuous Deployment</h1>
 <h2 id="basically-being-able-to-ship-stuff-on-demand-">Basically, being able to ship stuff on demand.</h2>
 <blockquote>
@@ -755,7 +758,7 @@ $.fn.myPlugin = myPlugin;</code></pre>
 </blockquote>
 </section>
   </div>
-  <div class="slide hidden" id="slide-21">
+  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><h2 id="continuous-deployment-continued-">Continuous Deployment Continued...</h2>
 <ul>
 <li>Use source control management system (SCM) - e.g. Git - to trigger builds</li>
@@ -765,27 +768,33 @@ $.fn.myPlugin = myPlugin;</code></pre>
 <li><a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>: CI framework initially by Thoughtworks</li>
 </ul>
 </li>
-<li>Proprietary: <a href="http://travis-ci.org">TravisCI</a> (free for open source), <a href="https://codeship.com/">Codeship</a>, <a href="https://circleci.com/">CircleCI</a>, <a href="https://phantomci.com/">PhantomCI</a> (Docker), <a href="http://appveyor.com">AppVeyor</a> (Windows)</li>
+<li>Proprietary:<ul>
+<li><a href="http://travis-ci.org">TravisCI</a> (free for open source)</li>
+<li><a href="https://codeship.com/">Codeship</a></li>
+<li><a href="https://circleci.com/">CircleCI</a></li>
+<li><a href="https://phantomci.com/">PhantomCI</a> (Docker)</li>
+</ul>
+</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden  image" id="slide-22">
+  <div class="slide hidden  image" id="slide-23">
     <section class="slide-content"><h1 id="codeship">Codeship</h1>
 <h2 id="also-just-use-it-">Also, Just Use It.</h2>
-<p><img src="img/codeship.png" alt="Codeship"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-23">
-    <section class="slide-content"><h1 id="automated-testing">Automated Testing</h1>
-<p><img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;"></p>
+<p><img src="img/codeship.png" alt="Codeship" style="height: 300px;"></p>
 </section>
   </div>
   <div class="slide hidden  image" id="slide-24">
+    <section class="slide-content"><h1 id="automated-testing">Automated Testing</h1>
+<p><img src="img/testing.jpg" alt="Testing" style="height: 400px;"></p>
+</section>
+  </div>
+  <div class="slide hidden  image" id="slide-25">
     <section class="slide-content"><h1 id="ship-early-ship-often">Ship Early, Ship Often</h1>
 <p><img src="img/shipit.jpg" alt="U Shipit Now" style="height: 400px;"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-25">
+  <div class="slide hidden" id="slide-26">
     <section class="slide-content"><h1 id="next-month">Next Month</h1>
 <ul>
 <li>Wrangling ArrangoDB by Christian Pekeler</li>

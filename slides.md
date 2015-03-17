@@ -111,7 +111,7 @@ controls: false
 
 # Branches, versions & milestones... Oh My
 
-<img src="img/branches.jpg" alt="branches" style="height: 400px;">
+<img src="img/branches.jpg" alt="branches" style="height: 300px;">
 
 -- image
 
@@ -119,7 +119,7 @@ controls: false
 
 ## aka. Teamwork
 
-<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+<img src="img/teamwork.gif" alt="Teamwork" style="height: 300px;">
 
 --
 
@@ -139,23 +139,19 @@ controls: false
 
 # Build Steps
 
-## aka. Teamwork
-
-<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+<img src="img/build-steps.jpg" alt="Build Steps" style="height: 400px;">
 
 -- image
 
 # App Structure
 
-## aka. Teamwork
-
-<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+<img src="img/structure.png" alt="App Structure" style="height: 400px;">
 
 --
 
-# package.json
+## package.json
 
-CommonJS specification for describing JavaScript packages can be scaffolded running `npm init`
+JS module description. Scaffolded using `npm init`. Run scripts by `npm run build`.
 
 ```json
 {
@@ -184,7 +180,7 @@ CommonJS specification for describing JavaScript packages can be scaffolded runn
 
 --
 
-# Modules
+## Modules
 
 #### The [__N__ode __P__ackage __M__anager](https://npmjs.org)
 
@@ -192,6 +188,11 @@ CommonJS specification for describing JavaScript packages can be scaffolded runn
 - easy to use (`npm install <package>`)
 - easy to publish (`npm publish`)
 - use it with anything (folders, tarballs, git repositories)
+- installed modules live in `node_modules`
+
+--
+
+## Modules continued...
 
 #### [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html)
 
@@ -224,7 +225,11 @@ $.fn.myPlugin = myPlugin;
 - Popular open source CI servers:
 	- [Jenkins](http://jenkins-ci.org/): Probably most popular CI server, formerly Hudson
 	- [CruiseControl](http://cruisecontrol.sourceforge.net/): CI framework initially by Thoughtworks
-- Proprietary: [TravisCI](http://travis-ci.org) (free for open source), [Codeship](https://codeship.com/), [CircleCI](https://circleci.com/), [PhantomCI](https://phantomci.com/) (Docker), [AppVeyor](http://appveyor.com) (Windows)
+- Proprietary:
+	- [TravisCI](http://travis-ci.org) (free for open source)
+	- [Codeship](https://codeship.com/)
+	- [CircleCI](https://circleci.com/)
+	- [PhantomCI](https://phantomci.com/) (Docker)
 
 -- image
 
@@ -232,13 +237,13 @@ $.fn.myPlugin = myPlugin;
 
 ## Also, Just Use It.
 
-<img src="img/codeship.png" alt="Codeship">
+<img src="img/codeship.png" alt="Codeship" style="height: 300px;">
 
---
+-- image
 
 # Automated Testing
 
-<img src="img/teamwork.gif" alt="Teamwork" style="height: 400px;">
+<img src="img/testing.jpg" alt="Testing" style="height: 400px;">
 
 -- image
 
