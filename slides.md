@@ -48,7 +48,7 @@ controls: false
 
 * Learning JavaScript
 * Laurie Gloge gave talked about
-	* Her take on a n00b's guide to JS and development in general
+	* Her take on a beginner's guide to JS and development in general
 	* Going from nothing to building her first app using the MEAN stack.
 * Kevin Barabash talked about
 	* ProTips™ we wish we knew starting out
@@ -67,7 +67,7 @@ controls: false
 
 - Frameworks
 - Grunt vs. Gulp vs. Tomato vs. Potato vs. Brocolli
-- CommonJS vs. AMD
+- CommonJS vs. AMD vs. PEBCAK
 - RequireJS vs. Browserify vs. Webpack vs. Dumpster
 - MVC, MVVM, MV*
 
@@ -103,7 +103,7 @@ controls: false
 
 # github
 
-## Just F*cking Use It.
+## Also Use It.
 
 <img src="img/github.png" alt="github">
 
@@ -180,11 +180,9 @@ JS module description. Scaffolded using `npm init`. Run scripts by `npm run buil
 
 --
 
-## Modules
+## The [__N__ode __P__ackage __M__anager](https://npmjs.org)
 
-#### The [__N__ode __P__ackage __M__anager](https://npmjs.org)
-
-- currently hosts ~63,000 modules
+- currently hosts ~130,000 modules
 - easy to use (`npm install <package>`)
 - easy to publish (`npm publish`)
 - use it with anything (folders, tarballs, git repositories)
@@ -192,9 +190,7 @@ JS module description. Scaffolded using `npm init`. Run scripts by `npm run buil
 
 --
 
-## Modules continued...
-
-#### [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html)
+## [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html)
 
 - Finalized module syntax of the next version of JavaScript
 
