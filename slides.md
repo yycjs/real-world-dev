@@ -245,7 +245,6 @@ $.fn.myPlugin = myPlugin;
 # Ship Early, Ship Often
 
 <img src="img/shipit.jpg" alt="U Shipit Now" style="height: 400px;">
->>>>>>> adding a bunch of slides
 
 --
 
