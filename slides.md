@@ -46,3 +46,18 @@ controls: false
 # A slide with an image
 
 ![teamwork](img/teamwork.gif)
+
+--
+
+# Web work in Caglary
+
+* Agencies are sweat shops
+  * Avoid like the plague
+* Start ups are interesting
+  * Look for founders that don't resemble cult leaders
+    * i.e. if you see white all around their eyes --> avoid
+* .NET will feed you in this town
+  * If oil bounces back, which it won't
+
+--
+
