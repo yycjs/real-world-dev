@@ -43,7 +43,8 @@ controls: false
 # Global Web Work
 
 * More remote work
-* Rails + NodeJS in the new standard
+* Rails + NodeJS + python are the new standard
+* Lot's of front-end dev positions
 
 --
 
@@ -70,6 +71,15 @@ MVC is dying a slow death and **web components** are the future.
 ![react](img/react-opti.png)
 
 --
+# JavaScript is Everywhere
+
+- Hybrid mobile apps (Cordova/Phonegap)
+- Native mobile apps (React Native, Appcelerator)
+- Server side (NodeJS)
+- All web apps have JS. A lot are very JS heavy
+
+--
+
 # Scaling
 
 * Container technology
