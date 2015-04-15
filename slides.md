@@ -61,3 +61,14 @@ controls: false
 
 --
 
+# Consulting
+
+## Don't be cheap
+
+## Determine a reasonalbe rate
+* Min rate should be your cost of living (per year) / 1,000
+* Max? Keep raising your rate until you are at 2/3 capacity
+
+--
+
+
