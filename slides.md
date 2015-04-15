@@ -3,7 +3,7 @@ output: index.html
 theme: theme
 controls: false
 
---
+-- title
 
 # Web Dev in the Real World
 
@@ -34,9 +34,15 @@ controls: false
 # Something Awesome
 
 --
+
 # Awesomeness
 
 - With
 - Bullet
 - Points
 
+-- image
+
+# A slide with an image
+
+![teamwork](img/teamwork.gif)
