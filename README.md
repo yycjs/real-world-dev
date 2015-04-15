@@ -1,14 +1,20 @@
-# `The ${perfect} JavaScript project`
+### YYCjs Slide Template
 
-At this meetup we will have a look at the most recent best practises for setting up and maintaining a JavaScript open source project and why you should run your own projects the same way - even if it isn't open source.
+Our template for our monthly slide deck using [cleaver](http://jdan.github.io/cleaver). Feel free to rip it off if you would like.
 
-We will look at
+To use it locally, there are 3 steps to instant gratification:
 
-- Git and GitHub 
-- Feature branches, versioning and milestones
-- Pull requests and code review
-- Build steps
-- Code quality checking
-- Folder layout
-- Continuous integration
-- Deployment
+1. `npm install -g cleaver`
+2. Write [your slides as markdown](https://github.com/yycjs/slide-template/blob/gh-pages/slides.md)
+3. `npm install`
+4. `grunt watch`
+
+
+#### Special Classes
+
+To make your slides look a little nice there are a few special classes that you can use with this theme.
+
+* `title`
+* `presenter`
+* `sponsors`
+* `image`
