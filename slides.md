@@ -31,34 +31,47 @@ controls: false
 
 --
 
-# Web work in Caglary
+# Web work in Calgary
 
-* Agencies are sweat shops
-  * Avoid like the plague
+* Agencies are sweat shops but can be a good place to cut your teeth
 * Start ups are interesting
   * Look for founders that don't resemble cult leaders
-    * i.e. if you see white all around their eyes --> avoid
-* .NET will feed you in this town
-  * If oil bounces back, which it won't
+* .NET will feed you in this town but you'll lose your soul
+* Rails is gaining ground
+
+--
+# Global Web Work
+
+* More remote work
+* Rails + NodeJS in the new standard
 
 --
 
 # Consulting
 
-### Don't be cheap
-
-### Determine a reasonable rate
-* Min hourly rate should be your cost of living (per year) / 1,000
-* Max? Keep raising your rate until you are at 2/3 capacity
+* Don't be cheap
+* Determine a reasonable rate
+	* Min hourly rate should be your cost of living (per year) / 1,000
+	* Max? Keep raising your rate until you are at 2/3 capacity
 
 --
 
 # Trends
 
-### Web components
-* React
+<br>
+MVC is dying a slow death and **web components** are the future.
 
-### Scaling
+-- image
+
+![polymer](img/polymer-logo.jpg)
+
+-- image
+
+![react](img/react-opti.png)
+
+--
+# Scaling
+
 * Container technology
   * Docker
   * lxc
@@ -66,6 +79,10 @@ controls: false
 
 -- 
 
-![teamwork](img/teamwork.gif)
+# Code Schools
+
+- [Code School](https://www.codeschool.com/)
+- [Tree House](https://teamtreehouse.com/)
+- [Lighthouse Labs](https://www.lighthouselabs.ca/calgary)
 
 --
