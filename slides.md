@@ -46,3 +46,40 @@ controls: false
 # A slide with an image
 
 ![teamwork](img/teamwork.gif)
+
+--
+
+# Web work in Caglary
+
+* Agencies are sweat shops
+  * Avoid like the plague
+* Start ups are interesting
+  * Look for founders that don't resemble cult leaders
+    * i.e. if you see white all around their eyes --> avoid
+* .NET will feed you in this town
+  * If oil bounces back, which it won't
+
+--
+
+# Consulting
+
+### Don't be cheap
+
+### Determine a reasonable rate
+* Min hourly rate should be your cost of living (per year) / 1,000
+* Max? Keep raising your rate until you are at 2/3 capacity
+
+--
+
+# Trends
+
+### Web components
+* React
+
+### Scaling
+* Container technology
+  * Docker
+  * lxc
+  * SmartOS
+
+--
