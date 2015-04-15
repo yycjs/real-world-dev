@@ -63,12 +63,22 @@ controls: false
 
 # Consulting
 
-## Don't be cheap
+### Don't be cheap
 
-## Determine a reasonalbe rate
+### Determine a reasonable rate
 * Min rate should be your cost of living (per year) / 1,000
 * Max? Keep raising your rate until you are at 2/3 capacity
 
 --
+
+# Trends
+
+### Web components
+
+### Scaling
+* Container technology
+  * Docker
+  * lxc
+  * SmartOS
 
 
