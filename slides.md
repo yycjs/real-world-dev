@@ -31,24 +31,6 @@ controls: false
 
 --
 
-# Something Awesome
-
---
-
-# Awesomeness
-
-- With
-- Bullet
-- Points
-
--- image
-
-# A slide with an image
-
-![teamwork](img/teamwork.gif)
-
---
-
 # Web work in Caglary
 
 * Agencies are sweat shops
@@ -81,5 +63,9 @@ controls: false
   * Docker
   * lxc
   * SmartOS
+
+-- 
+
+![teamwork](img/teamwork.gif)
 
 --
